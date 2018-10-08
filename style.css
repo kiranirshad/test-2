@@ -1,0 +1,82 @@
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    padding: 16px;
+
+}
+body{
+    background: #a9d0da;
+}
+.input-group{
+max-width: 600px;
+height: 100px;
+}
+.btn-img{
+height: 60px;
+width: 60px;
+}
+ .button{
+    background-image: url("images/keyboard-key.png");
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 50px;
+ 
+}
+.card{
+    width: 600px;;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-body{
+  height: 280px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+ 
+ 
+}
+.space-button{
+    background-image: url("images/space-bar-key.png");
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer !important;
+}
+.enter-button{
+    background-image: url("images/keyboard-key.png");
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ align-items: center;
+
+
+
+
+}
